@@ -27,7 +27,7 @@ function download1(){
 }
 
 function sendurl360p(URL){
-    window.location.href=`http://localhost:4000/download360p?URL=${URL}`
+    window.location.href=`https://youtubetomp4.github.io/youtubedownloader/download360p?URL=${URL}`
 }
 
 function download2(){
@@ -35,7 +35,7 @@ function download2(){
     sendurl480p(videourl);
 }
 function sendurl480p(URL){
-    window.location.href=`http://localhost:4000/download480p?URL=${URL}`
+    window.location.href=`https://youtubetomp4.github.io/youtubedownloader/download480p?URL=${URL}`
 }
 
 function getthumb(url){
