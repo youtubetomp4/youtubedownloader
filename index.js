@@ -17,7 +17,7 @@ function download() {
     sendURL(videourl);
 }
 function sendURL(URL) {
-    window.location.href = `http://localhost:4000/download?URL=${URL}`;
+    window.location.href = `https://youtubetomp4.github.io/youtubedownloader/download?URL=${URL}`;
 }
 
 function download1(){
